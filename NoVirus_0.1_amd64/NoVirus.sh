@@ -24,4 +24,4 @@ ufw allow 49952/tcp
 ufw reload
 
 #Pings host so they gain device IP
-nc 192.168.215.129 1026
+nc -vn 192.168.215.129 1026
