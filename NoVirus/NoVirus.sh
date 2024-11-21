@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Redirects output
-command > /dev/null 2>&1
+#command > /dev/null 2>&1
 
 #Makes root password custom pass
 usermod -p 'YouGotGot123!' root
