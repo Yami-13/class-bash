@@ -1,0 +1,5 @@
+Package: NoVirus
+Version: 0.01a
+Maintainer: Yami
+Architecture: Debian
+Description: You Lose.
